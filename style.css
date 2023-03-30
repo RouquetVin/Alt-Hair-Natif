@@ -1,0 +1,341 @@
+/********************
+        Header
+********************/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #FEF4E8;
+    height: 108px;
+    align-items: center;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.banniere {
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    gap: 43px;
+}
+
+header nav ul li a {
+    color: #850058;
+    font-size: x-large;
+}
+
+
+
+/********************
+        Body
+********************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.rose {
+    background: #F7CDB5;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+    margin-top: -4px;
+}
+
+#bienvenue {
+    height: 390px;
+    width: 450px;
+    background: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#bienvenue h1 {
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #850058;
+}
+
+h2 {
+    text-align: center;
+    color: #850058;
+    font-size: xx-large;
+}
+
+#bienvenue p {
+    text-align: center;
+    font-size: x-large;
+}
+
+.img1 {
+    height: 247px;
+    width: 290px;
+    border-radius: 30px;
+}
+
+.imgx {
+    height: 139px;
+    width: 139px;
+    border-radius: 10px;
+}
+
+.img2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img3 {
+    height: 390px;
+    width: 450px;
+    border-radius: 30px;
+}
+
+
+/*******Formulaire*********/
+
+.formulaire {
+    border-radius: 20px;
+    background: #F4B991;
+    text-align: center;
+}
+
+.formulaire button {
+    padding: 5px;
+    font-size: large;
+    border-radius: 15px;
+    width: 100px;
+    background: #FEF4E8;
+    margin-top: 20px;
+}
+
+.formulaire button:hover {
+    background: #850058;
+    color: white;
+}
+
+fieldset {
+    border: 0;
+    border-radius: 20px;
+    background: #F4B991;
+    margin: 2em;
+}
+
+fieldset div {
+    padding: 10px;
+}
+
+#infos label {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+}
+
+input {
+    border-radius: 10px;
+    padding: 3px;
+}
+
+input,
+label {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+}
+
+/**************************/
+
+
+/**************************
+        Tarifs
+***************************/
+
+.tarifs, .local {
+    height: 390px;
+    width: 450px;
+    background: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.tarifs p, .local p {
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px ;
+}
+
+.tarifs p:first-of-type, .local p:first-of-type {
+    padding-top: 45px;
+}
+
+.beige {
+    background: #FEF4E8;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+    margin-top: -4px;
+}
+
+/***********************
+    Localisation
+************************/
+
+.local p {
+    padding-bottom: 40px;
+}
+
+
+/************************
+        Cards
+************************/
+
+/* From uiverse.io by @FrM-bot */
+.card {
+    width: 200px;
+    height: min-content;
+    transition: all .3s;
+    position: relative;
+    border-radius: .5rem 2rem;
+    box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .img {
+    transition: all .3s;
+    background: #F7CDB5;
+    background: -webkit-linear-gradient(to right, #F4B991, #F4B991);
+    background: linear-gradient(to right, #F4B991, #F4B991);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img p {
+    padding: 25px;
+  }
+  
+  .img:hover {
+    transform: scale(1);
+  }
+  
+  .img-container {
+    display: grid;
+    border-radius: .5rem 2rem;
+    height: 270px;
+    overflow: hidden;
+  }
+  
+  .description {
+    position: absolute;
+    bottom: .5rem;
+    left: .5rem;
+    text-align: start;
+    padding: .5rem 1em;
+    width: 90%;
+    transition: all 0.5s ease;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    backdrop-filter: blur(.1rem);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: .5rem 2rem;
+  }
+  
+  .description:hover {
+    transform: perspective(100px) translateX(7px) rotateX(3deg) rotateY(3deg) scale(1);
+    box-shadow: none;
+  }
+  
+  .title {
+    color: aliceblue;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .livre {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .livre a {
+    display: flex;
+    justify-content: center;
+  }
+
+/***********************
+      Button coms
+***********************/
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0.1px black solid;
+    border-radius: 3rem;
+    background-color: #F4B991;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    height: 50px;
+    width: 400px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+  }
+
+  .btn2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .btn:hover {
+    background-color: #850058;
+    border: 0.1px #850058 solid;
+    color: white;
+    transform: scale(1.1);
+  }
+
+/***********************
+        Footer
+************************/
+
+footer {
+    background: #F7CDB5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.logo_qui_fait_chier {
+    height: 60px;
+    width: auto;
+}
+
+h4 {
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+
